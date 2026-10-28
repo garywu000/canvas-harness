@@ -1,0 +1,37 @@
+{
+  "localVersion": "3.5.1",
+  "upstreamRef": "51eb229b0c43010a1475ab1eff2341c56c1df72d",
+  "createdAt": "2026-10-28T01:18:05.726Z",
+  "files": [
+    {
+      "source": "extension/review-deck.js",
+      "path": "extension/review-deck.js",
+      "bytes": 28459,
+      "sha256": "69b1d8208929cb83e5a735a1f9976794c08e58fa7abfac6231560e26b5f4f6c2"
+    },
+    {
+      "source": "extension/review-deck.css",
+      "path": "extension/review-deck.css",
+      "bytes": 9538,
+      "sha256": "98881cb5c0980d0c72dfbeb1072878d912e42e4a318c1e3acac4d184988729b7"
+    },
+    {
+      "source": "extension/review-model.js",
+      "path": "extension/review-model.js",
+      "bytes": 11038,
+      "sha256": "b031ea339931c293121de84ec7b7750e732ed729194e09015d0f31e9bb27d8f9"
+    },
+    {
+      "source": "LICENSE",
+      "path": "LICENSE",
+      "bytes": 34674,
+      "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0"
+    },
+    {
+      "source": "tests/review-deck.test.cjs",
+      "path": "reference-tests/review-deck.test.cjs",
+      "bytes": 9042,
+      "sha256": "61d912908fbac51e25ab812e827c82ce8c0e5d87437bfafde7c413c5cc20ada8"
+    }
+  ]
+}
