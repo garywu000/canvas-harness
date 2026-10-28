@@ -1,0 +1,5 @@
+--- a/extension/focus-room.js
++++ b/extension/focus-room.js
+@@ -29,1 +29,1 @@
+-   previous=doc.activeElement;const version=++opening;panel=doc.createElement('section');panel.className='ch-room-view';panel.style.setProperty('position','relative');panel.style.setProperty('z-index','3');panel.dataset.rdKeep='true';panel.setAttribute('aria-label','Focus room');panel.setAttribute('role','region');
++   previous=container.getRootNode?.()?.activeElement||doc.activeElement;const version=++opening;panel=doc.createElement('section');panel.className='ch-room-view';panel.style.setProperty('position','relative');panel.style.setProperty('z-index','3');panel.dataset.rdKeep='true';panel.setAttribute('aria-label','Focus room');panel.setAttribute('role','region');

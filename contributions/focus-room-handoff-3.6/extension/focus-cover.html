@@ -1,0 +1,44 @@
+<!doctype html>
+<!-- Gary: Strict focus. A new tab opened during a Strict focus session becomes this page (background.js), because no
+     script can be added to Chrome's own new tab page. It says how long the session runs, goes back to Canvas, and is
+     where Strict focus can be ended on purpose (hold for three seconds). focus-cover.js; rules in focus-guard-model.js. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Focus</title>
+<style>
+ :root{color-scheme:light;--paper:#F3F1EA;--ink:#1F1E1B;--muted:#6E6B62;--line:rgb(127 127 127/.38);--accent:#C96442}
+ @media (prefers-color-scheme:dark){:root{color-scheme:dark;--paper:#15171c;--ink:#F7F5EF;--muted:#A9A69C}}
+ html,body{margin:0;min-height:100%;background:var(--paper);color:var(--ink)}
+ body{display:grid;place-items:center;min-height:100vh;padding:24px;box-sizing:border-box;font:15px/1.5 "Segoe UI",system-ui,-apple-system,sans-serif;text-align:center}
+ main{max-width:460px;display:grid;gap:14px;justify-items:center}
+ .eyebrow{margin:0;font:600 11px/1 "Segoe UI",system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+ h1{margin:0;font:500 clamp(26px,4.4vw,36px)/1.2 "Literata",Georgia,serif;text-wrap:balance}
+ .goal{margin:0;font-size:17px;font-style:italic}
+ p{margin:0}
+ .why{color:var(--muted);font-size:14px}
+ .hint{color:var(--muted);font-size:12px}
+ .row{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:6px}
+ button{font:600 14px/1 "Segoe UI",system-ui,sans-serif;padding:11px 18px;border-radius:11px;border:1px solid var(--line);background:transparent;color:var(--ink);cursor:pointer}
+ button:hover{background:rgb(127 127 127/.12)}
+ button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+ .hold{position:relative;overflow:hidden}
+ .hold i{position:absolute;inset:0;width:0;background:rgb(201 100 66/.28);pointer-events:none}
+ .hold[data-holding] i{width:100%;transition:width 3000ms linear}
+ [hidden]{display:none!important}
+</style>
+</head>
+<body>
+<main>
+ <p class="eyebrow">Canvas Harness · Strict focus</p>
+ <h1 id="title">You’re focusing</h1>
+ <p class="goal" id="goal" hidden></p>
+ <p class="why" id="why">New tabs wait while Strict focus is on. Canvas and the sites you allowed still open.</p>
+ <div class="row" id="actions"><button type="button" id="back">Back to Canvas</button><button type="button" class="hold" id="end"><i></i>Hold to end Strict focus</button></div>
+ <p class="hint" id="hint">Press and hold for 3 seconds. It ends Strict focus for this session; your timer keeps going.</p>
+</main>
+<script src="focus-guard-model.js"></script>
+<script src="focus-cover.js"></script>
+</body>
+</html>

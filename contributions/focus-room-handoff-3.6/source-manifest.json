@@ -1,0 +1,121 @@
+{
+  "localVersion": "3.5.1",
+  "upstreamRef": "51eb229b0c43010a1475ab1eff2341c56c1df72d",
+  "createdAt": "2026-10-28T00:57:47.245Z",
+  "files": [
+    {
+      "source": "extension/focus-room.js",
+      "path": "extension/focus-room.js",
+      "bytes": 45683,
+      "sha256": "db010583ecfb74e25000e79aa0905daeaff2d3fb6a27f94058faa725f9dab062"
+    },
+    {
+      "source": "extension/focus-room.css",
+      "path": "extension/focus-room.css",
+      "bytes": 19127,
+      "sha256": "ab8a6b48098e1548fe939439facc0a2538f6eccf5c7620afd98a6eadc8c8af2d"
+    },
+    {
+      "source": "extension/focus-room-model.js",
+      "path": "extension/focus-room-model.js",
+      "bytes": 11703,
+      "sha256": "2ee0cfd751fa0dbbd9379f6c929c7759504c2896ec9a6fac98513db992753ca6"
+    },
+    {
+      "source": "extension/focus-scene-renderer.js",
+      "path": "extension/focus-scene-renderer.js",
+      "bytes": 18238,
+      "sha256": "115e8e3855194fb4ae761b5cdf08a1f618dd73d48b5a1482ad55f2539bc86f5c"
+    },
+    {
+      "source": "extension/focus-dial.js",
+      "path": "extension/focus-dial.js",
+      "bytes": 2562,
+      "sha256": "89fe0a699d074e690b8270b71a8a3f52a1521a15c3bdc731784e119af5d07559"
+    },
+    {
+      "source": "extension/focus-scene.html",
+      "path": "extension/focus-scene.html",
+      "bytes": 1047,
+      "sha256": "fceaece5f04b426b5b14912d6f6b599fc3ff297382a9ffb071484012de1539f2"
+    },
+    {
+      "source": "extension/focus-scene.js",
+      "path": "extension/focus-scene.js",
+      "bytes": 7151,
+      "sha256": "b15cccee602b53331e023c68ab12d5708bfeaafd939913aa16fed68053a2ceb5"
+    },
+    {
+      "source": "extension/focus-guard-model.js",
+      "path": "extension/focus-guard-model.js",
+      "bytes": 8029,
+      "sha256": "a2010f1eadc129d4e328b15f0571fa6269989a111599a1b6481875b35c6c97be"
+    },
+    {
+      "source": "extension/focus-guard-page.js",
+      "path": "extension/focus-guard-page.js",
+      "bytes": 8639,
+      "sha256": "d53113137e0c09f6a5e528d72ae063080e38133282d79dd9a0bbbe4d330c9e19"
+    },
+    {
+      "source": "extension/focus-guard-allow.js",
+      "path": "extension/focus-guard-allow.js",
+      "bytes": 2154,
+      "sha256": "83ad2f24df1842e4ae5ceb1afc7bb2aaaa7442c1a550d4dc083456f970a7ad48"
+    },
+    {
+      "source": "extension/focus-guard.html",
+      "path": "extension/focus-guard.html",
+      "bytes": 2310,
+      "sha256": "6419b61e182db8e5688fc77036d19365b1a1fb93b6c3f13d16e57f94ce1394ee"
+    },
+    {
+      "source": "extension/focus-cover.html",
+      "path": "extension/focus-cover.html",
+      "bytes": 2737,
+      "sha256": "0194ea7f43db31296cbf63415b893232a4cbea90f45ddd10b938047a51299b54"
+    },
+    {
+      "source": "extension/focus-cover.js",
+      "path": "extension/focus-cover.js",
+      "bytes": 2661,
+      "sha256": "f67997f77b33ea4bfa6d6aaeb174853f6637c5ecfcc43adc40bba5f57ec93fb5"
+    },
+    {
+      "source": "extension/licenses/huashu-art-motion.txt",
+      "path": "extension/licenses/huashu-art-motion.txt",
+      "bytes": 1437,
+      "sha256": "2366c9124d8d2e34f769795362c7bb0367c0acba2308a31920f97942fca9344a"
+    },
+    {
+      "source": "LICENSE",
+      "path": "LICENSE",
+      "bytes": 34674,
+      "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0"
+    },
+    {
+      "source": "tests/focus-room.test.cjs",
+      "path": "reference-tests/focus-room.test.cjs",
+      "bytes": 22483,
+      "sha256": "5dc8ac73a2a82447cb7a43877ecf7ddf78423d307f245b406bf4829646c8f38d"
+    },
+    {
+      "source": "tests/focus-guard.test.cjs",
+      "path": "reference-tests/focus-guard.test.cjs",
+      "bytes": 28489,
+      "sha256": "f3b9c55b4e90faf1f4164422ed02564d517280f159d25c7e171fc387df6cf675"
+    },
+    {
+      "source": "tests/focus-scenes.test.cjs",
+      "path": "reference-tests/focus-scenes.test.cjs",
+      "bytes": 5935,
+      "sha256": "cbdf4c0dcb095f201c26f81c0aa334d6d8d0476baa476492f4830872d7458db3"
+    },
+    {
+      "source": "tests/focus-dial.test.cjs",
+      "path": "reference-tests/focus-dial.test.cjs",
+      "bytes": 3400,
+      "sha256": "5322b71220ee22ef98ea0b51724cded2571f68d8606ae839ef1b1056add6332c"
+    }
+  ]
+}
